@@ -1,1 +1,14 @@
-Final project init
+Brief Me the Case 
+An AI-Powered Legal and News Document Summarizer
+
+
+
+Project Overview
+A complete summarization pipeline combining:
+- Extractive Summarization using DistilBERT + LoRA
+- Abstractive Summarization using facebook/bart-large-cnn
+- Rewriter Module using BART and T5 to humanize summaries
+
+Trained on legal and news datasets (BillSum, Multi-News, CNN/DailyMail) and deployed with a FastAPI backend.
+
+
